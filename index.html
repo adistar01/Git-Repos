@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="header">
+        <p class="headerTitle">GIT-PROFILE</p>
+      </div>
+      <main class="main">
+        <div class="inputNameContainer">
+          <input
+            class="inputName"
+            id="inputName"
+            type="text"
+            placeholder="Enter the name and press Enter"
+            onkeydown="getResults(event)"
+          />
+        </div>
+        <div class="userContainer" id="userContainer"></div>
+        <div class="reposContainer" id="reposContainer"></div>
+      </main>
+      <div class="footer">
+        <p class="footerContent">Created by Aditya Bajpai</p>
+        <a class="githubFooterLogo" href="https://github.com/adistar01">
+          <img
+            src="./images/github-mark-white.png"
+            alt="github"
+            style="width: 32px; height: 32px"
+          />
+        </a>
+      </div>
+    </div>
+    <script src="main.js" async defer></script>
+  </body>
+</html>
